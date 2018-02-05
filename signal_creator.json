@@ -1,0 +1,36 @@
+[
+    {
+        "type":"sine",
+        "frequency":400,
+        "multiplier":[
+            {
+                "type":"fixed",
+                "value":1
+            }
+        ],
+        "modifier":[
+            {
+                "type":"sine",
+                "frequency":1.25,
+                "multiplier":[
+                    {
+                    "type":"fixed",
+                    "value":50
+                    }
+                ],
+                "modifier":[]
+            },
+            {
+                "type":"sine",
+                "frequency":12.5,
+                "multiplier":[
+                    {
+                    "type":"fixed",
+                    "value":5
+                    }
+                ],
+                "modifier":[]
+            }
+        ]
+    }
+]
